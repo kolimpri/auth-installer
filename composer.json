@@ -1,0 +1,25 @@
+{
+    "name": "kolimpri/auth-installer",
+    "description": "Quick installer for Kolimpri Auth.",
+    "keywords": ["laravel", "auth"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Valdivia",
+            "email": "svaldi.lsvl@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kolimpri\\AuthInstaller\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5.0",
+        "symfony/console": "~2.3|~3.0",
+        "symfony/process": "~2.3|~3.0"
+    },
+    "bin": [
+        "auth"
+    ]
+}
